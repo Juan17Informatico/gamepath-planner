@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // Import our custom CSS
 import { GamePath } from './GamePath'
-import './scss/styles.scss'
+import './assets/css/app.css'
 import { BrowserRouter } from 'react-router-dom'
 
 
