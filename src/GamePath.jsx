@@ -1,9 +1,10 @@
+import { AppRouter } from "./router/AppRouter"
 
 
 export const GamePath = () => {
   return (
     <>
-        <h1 className='h3' >GamePath Planner</h1>
+        <AppRouter />
     </>
   )
 }
