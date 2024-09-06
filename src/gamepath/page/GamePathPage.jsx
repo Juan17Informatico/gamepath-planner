@@ -2,8 +2,8 @@ import { GameCard } from "../components"
 
 export const GamePathPage = () => {
   return (
-    <div className="container game-container">
-      <div className="row">
+    <>
+      <div className="gamecard-container">
         {/* Cards */}
         {Array.from({ length: 6 }).map((_, index) => (
           <GameCard
@@ -14,12 +14,11 @@ export const GamePathPage = () => {
           />
         ))}
       </div>
-
       {/* Agregar y Eliminar botones */}
-      <div className="actions">
-        <button className="btn btn-primary">Agregar</button>
-        <button className="btn btn-danger">Eliminar</button>
+      <div className="btn-container">
+        <button >Agregar</button>
+        <button >Eliminar</button>
       </div>
-    </div>
+    </>
   )
 }
